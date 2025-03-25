@@ -1,0 +1,6 @@
+A coffee shop wants to know how many cups of coffee they have sold in total.
+Retrieve the total quantity of coffee sold from the sales table.
+
+SELECT SUM (quantity) AS total_coffee_sold
+FROM sales
+WHERE product ='coffee';
